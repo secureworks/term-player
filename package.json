@@ -1,0 +1,49 @@
+{
+  "name": "term-player",
+  "version": "0.1.0alpha",
+  "description": "Streams media from the terminal",
+  "homepage": "https://github.com/secureworks/term-player",
+  "author": {
+    "name": "Alasdair Mercer",
+    "url": "https://www.secureworks.com"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "console",
+    "terminal",
+    "media",
+    "video",
+    "player",
+    "stream",
+    "color"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/secureworks/term-player.git"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "color-convert": "^1.9.0",
+    "commander": "^2.9.0",
+    "fluent-ffmpeg": "^2.1.0",
+    "numeral": "^2.0.4",
+    "omggif": "^1.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-skelp": "^0.1.5",
+    "moan": "^0.1.3"
+  },
+  "main": "src/index",
+  "bin": {
+    "term-player": "bin/term-player"
+  },
+  "scripts": {
+    "start": "node src/index",
+    "test": "moan test"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "preferGlobal": true
+}

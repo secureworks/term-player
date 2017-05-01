@@ -1,0 +1,7 @@
+task/
+.*
+AUTHORS.md
+CHANGES.md
+CONTRIBUTING.md
+Moaning.js
+README.md

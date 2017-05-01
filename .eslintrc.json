@@ -1,0 +1,21 @@
+{
+  "extends": "skelp/es6",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "arrow-body-style": "off",
+    "max-params": [
+      "error",
+      4
+    ],
+    "no-confusing-arrow": "off",
+    "no-process-exit": "off",
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "none"
+      }
+    ]
+  }
+}
